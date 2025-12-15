@@ -52,7 +52,7 @@ export function AddTodo({ onAdd }) {
             type="datetime-local"
             value={deadline}
             onChange={(e) => setDeadline(e.target.value)}
-            className="p-2 border rounded flex-1"
+            className="p-2 border border-blue-700 rounded flex-1"
           />
           <button
             type="button"
