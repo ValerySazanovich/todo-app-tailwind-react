@@ -10,6 +10,7 @@ const MainContent = ({
   handleUpdate,
   toggleComplete,
   setDeletingId,
+  onReorder,
 }) => {
 
   const [filter, setFilter] = useState("all");
@@ -29,6 +30,7 @@ const MainContent = ({
         handleUpdate={handleUpdate}
         toggleComplete={toggleComplete}
         setDeletingId={setDeletingId}
+        onReorder={onReorder}
       />
     </div>
   );
