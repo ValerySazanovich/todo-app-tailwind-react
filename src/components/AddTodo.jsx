@@ -14,6 +14,8 @@ export function AddTodo({ onAdd }) {
       setText("");
       setDeadline("");
       setShowDeadlineInput("");
+    } else {
+      alert('Введите текст задачи');
     }
   };
 
